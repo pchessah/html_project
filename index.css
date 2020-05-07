@@ -1,0 +1,32 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(228, 228, 228);
+}
+
+#title {
+  padding: 50px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#image {
+  height: 250px;
+  width: 100%;
+  max-width: 450px;
+}
+
+#image-caption {
+  font-size: 10px;
+  font-style: italic;
+}
+
+#tribute-info {
+  max-width: 750px;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
